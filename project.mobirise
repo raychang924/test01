@@ -159,7 +159,7 @@
           },
           "title": "腸道纖子",
           "text": "<font color=\"#000000\"><br></font><br><b style=\"font-style: normal;\"><font color=\"#000000\">您的隨身腸道健康小幫手</font><br><font color=\"#000000\">一個ａｐｐ<br>讓您擁有隨身嘗到顧問的感覺</font><br><font color=\"#000000\">從此擺脫便祕</font><br></b><font color=\"#000000\"><b style=\"font-style: normal;\">擁有健康的腸胃</b><br></font><br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"https://drive.google.com/drive/folders/0B69LGT6plQ8cMndBNDdSMTVucEE?usp=sharing\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD NOW</a>  "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"https://drive.google.com/drive/folders/0B69LGT6plQ8cMndBNDdSMTVucEE?usp=sharing\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">DOWNLOAD NOW</a>  "
         },
         {
           "_inherit": "features3",
