@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 41,
+    "uniqCompNum": 48,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -120,7 +120,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Kibenso<br><br></a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">開發人員</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">相關文件</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -128,6 +128,15 @@
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#3d8eb9"
+            },
+            ".mbr-section-lead FONT": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
           "_anchor": "header1-7",
           "_params": {
             "parallax": true,
@@ -150,16 +159,7 @@
           },
           "title": "腸道纖子",
           "text": "<font color=\"#000000\"><br></font><br><b style=\"font-style: normal;\"><font color=\"#000000\">您的隨身腸道健康小幫手</font><br><font color=\"#000000\">一個ａｐｐ<br>讓您擁有隨身嘗到顧問的感覺</font><br><font color=\"#000000\">從此擺脫便祕</font><br></b><font color=\"#000000\"><b style=\"font-style: normal;\">擁有健康的腸胃</b><br></font><br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD NOW</a>  ",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#3d8eb9"
-            },
-            ".mbr-section-lead FONT": {
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"https://drive.google.com/drive/folders/0B69LGT6plQ8cMndBNDdSMTVucEE?usp=sharing\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD NOW</a>  "
         },
         {
           "_inherit": "features3",
@@ -915,6 +915,11 @@
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-lead FONT": {
+              "color": "#000000"
+            }
+          },
           "_anchor": "header1-q",
           "_params": {
             "parallax": true,
@@ -937,12 +942,173 @@
           },
           "title": "問卷",
           "text": "<font color=\"#000000\"><br></font><br><font color=\"#000000\"><b>我們利用生活習慣問卷與排便類型問卷來了解使用者的身體狀況</b></font>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-1a",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-7-2000x1333.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/-1400x526.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "<font color=\"#000000\">資料來源</font>",
+          "text": "我們從美國衛生研究院的官網研讀了許多關腸道健康的知識，<br>例如：如何計算個人一日所需的膳食纖維ˊ、飲水量、<br>何謂正確的排便姿勢、哪些作息影響排便狀況．．．等。",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
           "_styles": {
-            ".mbr-section-lead FONT": {
-              "color": "#000000"
+            ".mbr-section-title FONT": {
+              "color": "#ffffff"
             }
           }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-18",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-8-2000x1333.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/getimage-1400x1400.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "<font color=\"#000000\">問卷資料來源</font>",
+          "text": "亞洲著名腸道健康專家「便便博士」蔡英傑的著作之一",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_styles": {
+            ".mbr-section-title FONT": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-19",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-9-2000x1333.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/getimage-1-1400x1400.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "資料來源",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
           "_tags": [
@@ -1272,6 +1438,14 @@
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-lead FONT": {
+              "color": "#efefef"
+            },
+            ".mbr-section-lead B": {
+              "color": "#000000"
+            }
+          },
           "_anchor": "header1-w",
           "_params": {
             "parallax": true,
@@ -1294,15 +1468,7 @@
           },
           "title": "計畫",
           "text": "<br><b>根據使用者的身體狀況，制定整腸計畫。</b><br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
-          "_styles": {
-            ".mbr-section-lead FONT": {
-              "color": "#efefef"
-            },
-            ".mbr-section-lead B": {
-              "color": "#000000"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
           "_tags": [
@@ -1404,7 +1570,7 @@
               "size": 250
             }
           },
-          "title": "Chart.js",
+          "title": "資料圖形化",
           "text": "我們透過chart.js將相關資訊圖表畫，讓使用者能夠輕鬆地接受資訊",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         },
@@ -1413,6 +1579,11 @@
             "Theme"
           ],
           "_name": "header2",
+          "_styles": {
+            ".mbr-section-text FONT": {
+              "color": "#efefef"
+            }
+          },
           "_anchor": "header2-z",
           "_params": {
             "imageSize": 50,
@@ -1458,12 +1629,7 @@
           },
           "title": "提醒鬧鐘",
           "text": "<font color=\"#000000\">運用firebase could message來實現定時提醒鬧鐘</font>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"查詢.html\" data-toolbar=\"-mbrBtnMove\">前往查詢</a>",
-          "_styles": {
-            ".mbr-section-text FONT": {
-              "color": "#efefef"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"查詢.html\" data-toolbar=\"-mbrBtnMove\">前往查詢</a>"
         }
       ]
     },
@@ -1585,6 +1751,14 @@
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-lead FONT": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-lead B": {
+              "color": "#000000"
+            }
+          },
           "_anchor": "header1-12",
           "_params": {
             "parallax": true,
@@ -1607,13 +1781,62 @@
           },
           "title": "辨識",
           "text": "<font color=\"#000000\"><br></font><br><font color=\"#000000\"><b>讓使用者拍攝蔬菜，再運用影像辨識＋opendata<br>讓使用者輕易地取得蔬菜的相關資訊</b></font>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
-          "_styles": {
-            ".mbr-section-lead FONT": {
-              "color": "#ffffff"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-15",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-10-2000x1333.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            ".mbr-section-lead B": {
-              "color": "#000000"
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/1-1400x788.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "<font color=\"#000000\">更精準的辨識&nbsp;</font>",
+          "text": "Scikit-Image 的feature module中local_binary_pattern是用來做LBP(局部二值模式)的計算，即擷取圖片中的特徵以方便作為後面分類的處理。",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_styles": {
+            ".mbr-section-title FONT": {
+              "color": "#ffffff"
             }
           }
         },
@@ -1622,6 +1845,63 @@
             "Theme"
           ],
           "_name": "header2",
+          "_anchor": "header2-1b",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-4-2000x1333.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/2-1400x780.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "",
+          "text": "Scikit-Learn的RandomForestClassifier module是用來作為圖片辨識中的分類器，將LBP從圖片中取得的特徵加以訓練分類。",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-text FONT": {
+              "color": "#efefef"
+            }
+          },
           "_anchor": "header2-13",
           "_params": {
             "imageSize": 50,
@@ -1665,14 +1945,9 @@
               "size": 250
             }
           },
-          "title": "辨識畫面",
+          "title": "辨識結果",
           "text": "<font color=\"#000000\">拍攝玩相機後運用</font>Scikit-Learn、Scikit-Image、Opencv來實現辨識功能，<br>再將opendata中關於該蔬菜的相關資訊呈現給使用者。",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_styles": {
-            ".mbr-section-text FONT": {
-              "color": "#efefef"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         }
       ]
     },
@@ -1766,7 +2041,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Kibenso<br><br></a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">開發人員</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">相關文件</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -1794,6 +2069,11 @@
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-lead": {
+              "color": "#000000"
+            }
+          },
           "_anchor": "header1-10",
           "_params": {
             "parallax": true,
@@ -1816,18 +2096,18 @@
           },
           "title": "查詢",
           "text": "<b>查詢功能的部分我們以頁簽的方式呈現，使用者可以選<br></b><br><b>擇纖維相關的資訊或是腸道方面的資訊去做進一步的關<br></b><br><b>鍵字搜尋，來源有健康食譜網和熱門的腸道保健專家部<br></b><br><b>落格，並可以依照日期或是熱門程度排序，讓搜尋到資<br></b><span style=\"font-size: 1.5rem; line-height: 1.5;\"><br></span><span style=\"font-size: 1.5rem; line-height: 1.5;\"><b>訊的可信度與準確度提高。</b></span><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
-          "_styles": {
-            ".mbr-section-lead": {
-              "color": "#000000"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "header2",
+          "_styles": {
+            ".mbr-section-text FONT": {
+              "color": "#efefef"
+            }
+          },
           "_anchor": "header2-11",
           "_params": {
             "imageSize": 50,
@@ -1873,12 +2153,7 @@
           },
           "title": "查詢畫面",
           "text": "<font color=\"#000000\">運用google custom search來實現查詢功能</font>.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"辨識.html\" data-toolbar=\"-mbrBtnMove\">前往辨識</a>",
-          "_styles": {
-            ".mbr-section-text FONT": {
-              "color": "#efefef"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"辨識.html\" data-toolbar=\"-mbrBtnMove\">前往辨識</a>"
         }
       ]
     }

@@ -666,6 +666,12 @@ h6,
 #header1-q .mbr-section-lead FONT {
   color: #000000;
 }
+#header2-1a .mbr-section-title FONT {
+  color: #ffffff;
+}
+#header2-18 .mbr-section-title FONT {
+  color: #ffffff;
+}
 #ext_menu-j .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -802,6 +808,9 @@ h6,
 }
 #header1-12 .mbr-section-lead B {
   color: #000000;
+}
+#header2-15 .mbr-section-title FONT {
+  color: #ffffff;
 }
 #header2-13 .mbr-section-text FONT {
   color: #efefef;
