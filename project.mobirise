@@ -388,6 +388,11 @@
             "Theme"
           ],
           "_name": "header2",
+          "_styles": {
+            ".mbr-section-title FONT": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "header2-3",
           "_params": {
             "imageSize": 50,
@@ -433,12 +438,7 @@
           },
           "title": "<font color=\"#000000\">腸道保健小知識</font>",
           "text": "我們整理了許多提供腸道健康資訊的網站與部落格，<br>並利用ｇｏｏｇｌｅ　ｃｕｓｔｏｍ　ｓｅａｒｃｈ，<br>讓使用者能夠輕鬆的獲取這些健康資訊。",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"查詢.html\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "_styles": {
-            ".mbr-section-title FONT": {
-              "color": "#ffffff"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"查詢.html\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         },
         {
           "_tags": [
@@ -465,6 +465,11 @@
             "Theme"
           ],
           "_name": "header2",
+          "_styles": {
+            ".mbr-section-title FONT": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "header2-6",
           "_params": {
             "imageSize": 50,
@@ -510,12 +515,7 @@
           },
           "title": "<font color=\"#000000\">蔬菜</font>辨識",
           "text": "讓使用者拍攝蔬菜後，透過影像辨識＋ｏｐｅｎｄａｔａ，<br>讓使用者能夠輕鬆地得到該蔬菜的相關營養資訊",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"辨識.html\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "_styles": {
-            ".mbr-section-title FONT": {
-              "color": "#ffffff"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"辨識.html\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         }
       ]
     },
@@ -573,15 +573,7 @@
           "title": "Developer INTRO",
           "text": "<p><a href=\"http://\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<iframe height=\"600px\" width=\"100%\" style=\"border:none;\" src=\"https://view-awesome-table.com/-KlPQv-dOq9E82PmiFxc/view\"></iframe></a></p>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR WINDOWS</a> "
-        }
-      ]
-    },
-    "page2.html": {
-      "settings": {
-        "title": "Web Builder Title",
-        "meta_descr": "Web Builder Description"
-      },
-      "components": [
+        },
         {
           "_inherit": "menu",
           "_tags": [
@@ -636,7 +628,7 @@
             }
           },
           "_name": "ext.menu",
-          "_anchor": "ext_menu-d",
+          "_anchor": "ext_menu-0",
           "_params": {
             "bgColor": "#fdff5d",
             "fontSize": 0.75,
@@ -666,9 +658,17 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">開發人員</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">相關文件</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
-        },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Kibenso<br><br></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">開發人員</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">相關文件</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page2.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">功能列表</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"辨識.html\">辨識功能</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"問卷.html\">問卷功能</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"計畫.html\">計畫功能</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"查詢.html\">查詢功能</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "title": "Web Builder Title",
+        "meta_descr": "Web Builder Description"
+      },
+      "components": [
         {
           "_tags": [
             "Theme"
@@ -717,15 +717,7 @@
           "title": "Essays",
           "text": "<p><a href=\"http://\"><iframe height=\"600px\" width=\"100%\" style=\"border:none;\" src=\"https://view-awesome-table.com/-KlQ84C5MwH9eNVcSiPm/view\"></iframe></a><a href=\"http://\"></a></p>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
-        }
-      ]
-    },
-    "問卷.html": {
-      "settings": {
-        "title": "Site Maker Title",
-        "meta_descr": "Site Maker Description"
-      },
-      "components": [
+        },
         {
           "_inherit": "menu",
           "_tags": [
@@ -780,7 +772,7 @@
             }
           },
           "_name": "ext.menu",
-          "_anchor": "ext_menu-h",
+          "_anchor": "ext_menu-0",
           "_params": {
             "bgColor": "#fdff5d",
             "fontSize": 0.75,
@@ -810,9 +802,17 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">開發人員</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">相關文件</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
-        },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Kibenso<br><br></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">開發人員</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">相關文件</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page2.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">功能列表</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"辨識.html\">辨識功能</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"問卷.html\">問卷功能</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"計畫.html\">計畫功能</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"查詢.html\">查詢功能</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        }
+      ]
+    },
+    "問卷.html": {
+      "settings": {
+        "title": "Site Maker Title",
+        "meta_descr": "Site Maker Description"
+      },
+      "components": [
         {
           "_tags": [
             "Theme"
@@ -1240,15 +1240,7 @@
           "title": "結果",
           "text": "了解原因後，讓使用者制訂整腸計畫。",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"計畫.html\" data-toolbar=\"-mbrBtnMove\">前往整腸</a>"
-        }
-      ]
-    },
-    "計畫.html": {
-      "settings": {
-        "title": "Web Page Builder Title",
-        "meta_descr": "Web Page Builder Description"
-      },
-      "components": [
+        },
         {
           "_inherit": "menu",
           "_tags": [
@@ -1303,7 +1295,7 @@
             }
           },
           "_name": "ext.menu",
-          "_anchor": "ext_menu-j",
+          "_anchor": "ext_menu-0",
           "_params": {
             "bgColor": "#fdff5d",
             "fontSize": 0.75,
@@ -1333,9 +1325,17 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">開發人員</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">相關文件</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
-        },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Kibenso<br><br></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">開發人員</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">相關文件</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page2.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">功能列表</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"辨識.html\">辨識功能</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"問卷.html\">問卷功能</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"計畫.html\">計畫功能</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"查詢.html\">查詢功能</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        }
+      ]
+    },
+    "計畫.html": {
+      "settings": {
+        "title": "Web Page Builder Title",
+        "meta_descr": "Web Page Builder Description"
+      },
+      "components": [
         {
           "_tags": [
             "Theme"
@@ -1553,15 +1553,7 @@
             "overlayColor": "#444444"
           },
           "text": "Copyright (c) 2016 Mobirise."
-        }
-      ]
-    },
-    "辨識.html": {
-      "settings": {
-        "title": "Web Page Maker Title",
-        "meta_descr": "Web Page Maker Description"
-      },
-      "components": [
+        },
         {
           "_inherit": "menu",
           "_tags": [
@@ -1616,7 +1608,7 @@
             }
           },
           "_name": "ext.menu",
-          "_anchor": "ext_menu-l",
+          "_anchor": "ext_menu-0",
           "_params": {
             "bgColor": "#fdff5d",
             "fontSize": 0.75,
@@ -1646,9 +1638,17 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">開發人員</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">相關文件</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
-        },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Kibenso<br><br></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">開發人員</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">相關文件</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page2.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">功能列表</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"辨識.html\">辨識功能</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"問卷.html\">問卷功能</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"計畫.html\">計畫功能</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"查詢.html\">查詢功能</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        }
+      ]
+    },
+    "辨識.html": {
+      "settings": {
+        "title": "Web Page Maker Title",
+        "meta_descr": "Web Page Maker Description"
+      },
+      "components": [
         {
           "_tags": [
             "Theme"
@@ -1871,15 +1871,7 @@
           "title": "辨識結果",
           "text": "<font color=\"#000000\">拍攝玩相機後運用</font>Scikit-Learn、Scikit-Image、Opencv來實現辨識功能，<br>再將opendata中關於該蔬菜的相關資訊呈現給使用者。",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
-        }
-      ]
-    },
-    "查詢.html": {
-      "settings": {
-        "title": "Web Builder Title",
-        "meta_descr": "Web Builder Description"
-      },
-      "components": [
+        },
         {
           "_inherit": "menu",
           "_tags": [
@@ -1934,7 +1926,7 @@
             }
           },
           "_name": "ext.menu",
-          "_anchor": "ext_menu-n",
+          "_anchor": "ext_menu-0",
           "_params": {
             "bgColor": "#fdff5d",
             "fontSize": 0.75,
@@ -1965,8 +1957,16 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Kibenso<br><br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">開發人員</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">相關文件</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
-        },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">開發人員</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">相關文件</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page2.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">功能列表</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"辨識.html\">辨識功能</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"問卷.html\">問卷功能</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"計畫.html\">計畫功能</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"查詢.html\">查詢功能</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        }
+      ]
+    },
+    "查詢.html": {
+      "settings": {
+        "title": "Web Builder Title",
+        "meta_descr": "Web Builder Description"
+      },
+      "components": [
         {
           "_tags": [
             "Theme"
@@ -2077,6 +2077,93 @@
           "title": "查詢畫面",
           "text": "<font color=\"#000000\">運用google custom search來實現查詢功能</font>.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"辨識.html\" data-toolbar=\"-mbrBtnMove\">前往辨識</a>"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#fcff2a"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#fdff4e!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fdff5d"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-0",
+          "_params": {
+            "bgColor": "#fdff5d",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/kibenso-127x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Kibenso<br><br></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">開發人員</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">相關文件</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page2.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">功能列表</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"辨識.html\">辨識功能</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"問卷.html\">問卷功能</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"計畫.html\">計畫功能</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"查詢.html\">查詢功能</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         }
       ]
     }
