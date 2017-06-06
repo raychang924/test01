@@ -121,7 +121,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Kibenso<br><br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">開發人員</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">相關文件</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">開發人員</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">相關文件</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page2.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">功能列表</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"辨識.html\">辨識功能</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"問卷.html\">問卷功能</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"計畫.html\">計畫功能</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"查詢.html\">查詢功能</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_tags": [
@@ -379,7 +379,7 @@
               "size": 250
             }
           },
-          "title": "計畫",
+          "title": "整腸計畫",
           "text": "根據問卷所取得的使用者健康狀況後，給予使用者有效的整腸計畫，<br>並以圖表的方式呈現資訊，使得使用者能得以輕鬆的理解資訊。",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"計畫.html\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         },
@@ -431,9 +431,14 @@
               "size": 250
             }
           },
-          "title": "查詢",
+          "title": "<font color=\"#000000\">腸道保健小知識</font>",
           "text": "我們整理了許多提供腸道健康資訊的網站與部落格，<br>並利用ｇｏｏｇｌｅ　ｃｕｓｔｏｍ　ｓｅａｒｃｈ，<br>讓使用者能夠輕鬆的獲取這些健康資訊。",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"查詢.html\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"查詢.html\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "_styles": {
+            ".mbr-section-title FONT": {
+              "color": "#ffffff"
+            }
+          }
         },
         {
           "_tags": [
@@ -503,9 +508,14 @@
               "size": 250
             }
           },
-          "title": "辨識",
+          "title": "<font color=\"#000000\">蔬菜</font>辨識",
           "text": "讓使用者拍攝蔬菜後，透過影像辨識＋ｏｐｅｎｄａｔａ，<br>讓使用者能夠輕鬆地得到該蔬菜的相關營養資訊",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"辨識.html\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"辨識.html\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "_styles": {
+            ".mbr-section-title FONT": {
+              "color": "#ffffff"
+            }
+          }
         }
       ]
     },
@@ -515,93 +525,6 @@
         "meta_descr": "Web Site Builder Description"
       },
       "components": [
-        {
-          "_inherit": "menu",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "0.75rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#fcff2a"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#fdff4e!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#fdff5d"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
-            }
-          },
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-9",
-          "_params": {
-            "bgColor": "#fdff5d",
-            "fontSize": 0.75,
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/kibenso-127x128.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">開發人員</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">相關文件</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
-        },
         {
           "_tags": [
             "Theme"
@@ -949,6 +872,11 @@
             "Theme"
           ],
           "_name": "header2",
+          "_styles": {
+            ".mbr-section-title FONT": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "header2-1a",
           "_params": {
             "imageSize": 50,
@@ -994,18 +922,18 @@
           },
           "title": "<font color=\"#000000\">資料來源</font>",
           "text": "我們從美國衛生研究院的官網研讀了許多關腸道健康的知識，<br>例如：如何計算個人一日所需的膳食纖維ˊ、飲水量、<br>何謂正確的排便姿勢、哪些作息影響排便狀況．．．等。",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_styles": {
-            ".mbr-section-title FONT": {
-              "color": "#ffffff"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "header2",
+          "_styles": {
+            ".mbr-section-title FONT": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "header2-18",
           "_params": {
             "imageSize": 50,
@@ -1051,12 +979,7 @@
           },
           "title": "<font color=\"#000000\">問卷資料來源</font>",
           "text": "亞洲著名腸道健康專家「便便博士」蔡英傑的著作之一",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_styles": {
-            ".mbr-section-title FONT": {
-              "color": "#ffffff"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
           "_tags": [
@@ -1316,7 +1239,7 @@
           },
           "title": "結果",
           "text": "了解原因後，讓使用者制訂整腸計畫。",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"計畫.html\" data-toolbar=\"-mbrBtnMove\">前往計畫</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"計畫.html\" data-toolbar=\"-mbrBtnMove\">前往整腸</a>"
         }
       ]
     },
@@ -1412,26 +1335,6 @@
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">開發人員</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">相關文件</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
-          "_anchor": "footer1-k",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Copyright (c) 2016 Mobirise."
         },
         {
           "_tags": [
@@ -1629,7 +1532,27 @@
           },
           "title": "提醒鬧鐘",
           "text": "<font color=\"#000000\">運用firebase could message來實現定時提醒鬧鐘</font>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"查詢.html\" data-toolbar=\"-mbrBtnMove\">前往查詢</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"查詢.html\" data-toolbar=\"-mbrBtnMove\">前往腸道健康小知識</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-5",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Mobirise."
         }
       ]
     },
@@ -1788,6 +1711,11 @@
             "Theme"
           ],
           "_name": "header2",
+          "_styles": {
+            ".mbr-section-title FONT": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "header2-15",
           "_params": {
             "imageSize": 50,
@@ -1833,12 +1761,7 @@
           },
           "title": "<font color=\"#000000\">更精準的辨識&nbsp;</font>",
           "text": "Scikit-Image 的feature module中local_binary_pattern是用來做LBP(局部二值模式)的計算，即擷取圖片中的特徵以方便作為後面分類的處理。",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_styles": {
-            ".mbr-section-title FONT": {
-              "color": "#ffffff"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
           "_tags": [
